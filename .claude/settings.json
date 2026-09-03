@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./v/bin/python -)",
+      "Bash(./v/bin/pip -q install pandas matplotlib jupyter nbformat nbconvert)",
+      "Bash(./v/bin/python -c \"import pandas,matplotlib;print\\('ok',pandas.__version__,matplotlib.__version__\\)\")"
+    ]
+  }
+}
