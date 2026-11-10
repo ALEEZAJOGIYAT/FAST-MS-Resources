@@ -1,2 +1,26 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# NLP: downloaded models and generated artifacts
 NLP/hf_models/
 NLP/artifacts/
+
+# Datasets (downloaded automatically, ~800 MB)
+data/
+
+# Trained model weights (re-created by running the notebooks)
+*.pt
+*.pth
+
+# Advance AI assignment 2, Part 3:
+# original photos show real people and number plates and belong to someone else -> never commit
+karachi_photos/
+# anonymised outputs are re-created by running the notebook
+karachi_outputs/
